@@ -1,0 +1,714 @@
+img {
+  width: 100%;
+}
+
+.landing {
+  position: relative;
+  background: url("./img/SjsuGate.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -24px;
+  margin-bottom: -50px;
+}
+
+.landing-inner {
+  padding-top: 80px;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card-form {
+  opacity: 0.9;
+}
+
+.latest-profiles-img {
+  width: 40px;
+  height: 40px;
+}
+
+.form-control::placeholder {
+  color: #bbb !important;
+}
+
+.applogin-app-logo img {
+  max-height: 26px;
+}
+
+/* Canvas copied*/
+
+.form-heading {
+  color: #fff;
+  font-size: 23px;
+}
+
+.panel h2 {
+  color: #444444;
+  font-size: 18px;
+  margin: 0 0 8px 0;
+}
+
+.panel p {
+  color: #777777;
+  font-size: 14px;
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.main-outer-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  float: initial;
+
+  /* border: 2px solid black; */
+}
+.main-div {
+  border: 2px solid #ddd;
+}
+
+.login-form .form-group {
+  margin-bottom: 10px;
+}
+
+.login-form {
+  text-align: center;
+}
+
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.login-form .btn.btn-primary {
+  background: #f0ad4e none repeat scroll 0 0;
+  border-color: #f0ad4e;
+  color: #ffffff;
+  font-size: 14px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+}
+
+.forgot {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.botto-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin: auto;
+}
+
+.back {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.back a {
+  color: #444444;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+/*
+.applogin-banner .applogin-container {
+    !**!  padding: 5px 0!important;
+  }
+*/
+
+/*@media only screen and (max-height: 750px)
+.applogin-banner .applogin-container {
+  padding: 10px 0;
+}*/
+
+/*@media only screen and (max-height: 750px)
+.applogin-banner .applogin-container {
+  padding: 10px 0;
+}*/
+
+.applogin-banner .applogin-container {
+  position: relative;
+  width: 400px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.applogin-banner .applogin-container h1 {
+  font-size: 24px;
+  font-weight: lighter;
+  color: #777;
+  line-height: 26px;
+}
+
+.applogin-banner .applogin-app-logo img {
+  max-height: 26px;
+}
+
+.applogin-banner {
+  position: relative;
+  margin-bottom: 10px;
+  min-width: 300px;
+  margin-top: -15px;
+}
+
+.applogin-banner .applogin-background {
+  background-color: #fff;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2px 1px rgba(175, 175, 175, 0.3);
+}
+
+.content {
+  /* min-height: 100%;
+    min-width: 300px; */
+  display: inline-block;
+  width: 100%;
+  padding-top: 0;
+  margin-top: -65px;
+  position: fixed;
+}
+
+.applogin-banner .applogin-app-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.auth-org-logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+  max-height: 40px;
+}
+
+.login-form {
+  margin: 0;
+
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  background: transparent;
+}
+.main-div {
+  padding: 50px 70px 70px 71px;
+}
+.main-outer-div {
+  background-color: #fff;
+  border-color: #ddd #ddd #d8d8d8;
+  box-shadow: 0 2px 0 rgba(175, 175, 175, 0.12);
+  padding: 0;
+}
+
+.auth-container {
+  color: #5e5e5e;
+}
+
+.auth-header {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  z-index: 10;
+  -webkit-transition: padding-bottom 0.4s;
+  transition: padding-bottom 0.4s;
+  border-bottom-color: #ddd;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+.loginForm {
+  padding-top: 20px;
+}
+.sign-in-button {
+  background: #0087d0 !important;
+  background-color: #0087d0 !important;
+}
+.custom-checkbox {
+  text-align: left;
+  padding: 10px;
+}
+.custom-checkbox label {
+  padding: 5px;
+}
+
+.ic-app-header {
+  width: 84px;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+}
+#skip_navigation_link {
+  padding: 4px 8px;
+  background: var(--ic-link-color);
+  background-clip: border-box;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px dashed rgba(255, 255, 255, 0.8);
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.ic-app-header__main-navigation {
+  box-sizing: border-box;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+.ic-app-header__logomark-container {
+  width: 100%;
+  background-color: var(--ic-brand-global-nav-logo-bgd);
+  box-sizing: border-box;
+}
+.ic-app-header__logomark {
+  display: block;
+  overflow: hidden;
+  background-image: var(--ic-brand-header-image);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  height: 75px;
+}
+.ic-app-header__logomark {
+  height: 85px;
+}
+
+.mainHeader {
+  width: 84px;
+  overflow-y: auto;
+  border: 1px solid black;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  z-index: 100;
+  background-color: rgb(21, 21, 100);
+}
+
+.subHeader {
+  box-sizing: border-box;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.headerLogo {
+  width: 100%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.headerLogoFormat {
+  display: block;
+  background-image: url("sjsuLogo.png");
+  overflow: hidden;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  height: 75px;
+}
+
+.headerListFormat {
+  padding: 0;
+  list-style: none;
+}
+
+.headerListItemsFormat {
+  box-sizing: border-box;
+}
+
+.headerProfileCustomeImage {
+  box-sizing: border-box;
+  transition: background-color 0.3s, padding 0.3s;
+  position: relative;
+  text-align: center;
+  display: block;
+  color: var(--ic-brand-global-nav-menu-item__text-color);
+  border-style: none;
+}
+
+.headerProfileIconContainer {
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  z-index: 1;
+  width: 48px;
+  margin: 0 auto;
+  color: white;
+}
+
+.headerProfileIconImage {
+  overflow: hidden;
+  border-radius: 100%;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.headerTextFormat {
+  transition: none;
+  position: static;
+  left: auto;
+  top: auto;
+  -webkit-transform: none;
+  transform: none;
+  opacity: 1;
+  text-align: center;
+  display: block;
+  line-height: 1.4;
+  border-radius: 0;
+  margin: 3px 0 0;
+  padding: 0;
+  background: transparent;
+  color: white;
+  white-space: normal;
+  word-wrap: break-word;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.Navbar2.open {
+  margin-left: 84px;
+  display: block;
+  background-color: #0087d0;
+  overflow-y: auto;
+  position: fixed;
+  min-height: 200px;
+
+  min-width: 200px;
+}
+
+.Navbar2.closed {
+  display: none;
+}
+
+.nav-toggle {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  border-bottom: 1px solid #c7cdd1;
+  margin: 0 24px;
+  min-height: 4.5rem;
+  box-sizing: border-box;
+}
+.course-nav-toggle {
+  margin-right: 12px;
+  padding: 0;
+  width: 36px;
+  height: 30px;
+}
+.btn-link,
+.Button--link {
+  border-color: transparent;
+  cursor: pointer;
+  color: blue;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+#left-side {
+  display: block;
+  overflow: visible;
+  z-index: 11;
+  margin-left: 84px;
+}
+.list-view > *:first-child {
+  border-top: 0 !important;
+}
+
+.list-view > ul,
+.list-view > nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list-view > ul > li,
+.list-view > nav > ul > li {
+  padding: 0;
+}
+.list-view > ul > li > a,
+.list-view > nav > ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: var(--ic-brand-font-color-dark);
+  border-radius: 3px;
+  padding: 8px 12px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  line-height: 1.3;
+}
+.profilePicture .glyphicon {
+  font-size: 60px;
+}
+
+.profileHeader {
+  padding: 12px 0 0 0;
+  line-height: 1.25;
+  font-style: bold;
+  font-size: 30px;
+}
+
+.profileInfo div {
+  font-size: 22px;
+}
+
+body {
+  font-family: "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.editProfile .glyphicon {
+  font-size: 30 px;
+  text-align: right;
+  color: grey;
+}
+editProfile {
+  font-size: 40px;
+  text-align: right;
+}
+button.submitButton {
+  margin-top: 20px;
+}
+.Navbar .glyphicon {
+  font-size: 47px;
+}
+.ui.grid {
+  margin-left: 150px;
+}
+
+.Navbar {
+  z-index: 999;
+  opacity: 1;
+}
+
+.sidenav {
+  z-index: 1;
+  background: silver;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  font-size: 30px;
+  text-align: right;
+}
+
+/* The side navigation menu */
+.sidenav.closed {
+  width: 0;
+  margin-left: 0;
+}
+.sidenav {
+  margin-left: 84px;
+
+  height: 100%; /* 100% Full-height */
+  /* 0 width - change this with JavaScript */
+  width: 150px;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a,
+.sidenav .closebtn {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: blue;
+  display: block;
+  transition: 0.3s;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.sidenav a {
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav .closebtn:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+.sidenav.closed .closebtn {
+  display: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  text-align: right;
+}
+.headerProfileIconContainer:hover {
+  cursor: pointer;
+}
+
+html,
+body,
+#root,
+.App2 {
+  width: 100%;
+  height: 100%;
+}
+
+.testdata1 {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
+.dashboardMenu div {
+  margin-top: 10px;
+  display: flex;
+}
+
+.divsideblue {
+  border-left: 6px solid blue;
+  background-color: rgb(247, 239, 239);
+}
+/* 
+.pagination li {
+  padding: 6px;
+}
+
+.pagination {
+  margin-left: 40%;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+  margin: 5px;
+  display: inline-block !important;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.cardheader {
+  font-weight: 600;
+}
+
+.cardbody span {
+  width: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+} */

@@ -1,0 +1,67 @@
+
+app.get("/test1", function(req, res) {
+  res.writeHead(200, {
+    "Content-Type": "application/json"
+  });
+});
+
+app.get("/test2", function(req, res) {
+  res.writeHead(401, {
+    "Content-Type": "application/json"
+  });
+
+  res.end(JSON.stringify("test2 data"));
+});
+
+app.get("/test3", function(req, res) {
+  res.writeHead(401, {
+    "Content-Type": "text/plain"
+  });
+
+  res.end(JSON.stringify("test3 data"));
+});
+
+app.get("/test4", function(req, res) {
+  res.end(JSON.stringify("test4 data"));
+
+  res.writeHead(401, {
+    "Content-Type": "application/json"
+  });
+});
+
+app.get("/test5", function(req, res) {
+  res.writeHead(200, {
+    "Content-Type": "application/json"
+  });
+
+  res.send(JSON.stringify("test5 data"));
+});
+
+app.get("/test6", function(req, res) {
+  res.end(JSON.stringify("test6 data"));
+  res.end(JSON.stringify("test62 data"));
+});
+
+app.get("/test7", function(req, res) {
+  res.send(JSON.stringify("test7 data"));
+  res.send(JSON.stringify("test72 data"));
+});
+
+app.get("/test8", function(req, res) {
+  res.end(JSON.stringify("test8 data"));
+  return;
+  res.end(JSON.stringify("test62 data"));
+});
+
+app.get("/test9", function(req, res) {
+  return;
+  res.end(JSON.stringify("test9 data"));
+
+  res.end(JSON.stringify("test62 data"));
+});
+
+app.get(
+  "/login2",
+  passport.authenticate("jwt", { session: false }),
+  (req, res) => {}
+);
