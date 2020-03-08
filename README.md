@@ -1,0 +1,2 @@
+# Canvas-Prototype
+Canvas Prototype (Spring 2019): Implemented canvas which is most used educational portals in USA, as a part of college project. Project includes creating profile for Professors and students and different features such as creating a course, enrolling to course, grading, submitting an assignment etc. Stack used: React for front-end, NodeJS as backend, Database: MongoDB. Deployed on AWS instance
